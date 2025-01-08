@@ -25,7 +25,7 @@ function playRound(humanChoice,computerChoice) {
 
     let roundResult;
 
-    if (humanChoice != 'rock' && 'paper' && 'scissors') {
+    if (humanChoice != 'rock' && humanChoice != 'paper' && humanChoice != 'scissors') {
         roundResult = 'Please, enter a valid option.';
     } else if (humanChoice === computerChoice) {
         roundResult = 'It is a tie :0';
