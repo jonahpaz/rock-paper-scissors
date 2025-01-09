@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="altScript.js"></script>
     <title>Document</title>
+    <style>
+        body {
+            background-color: powderblue;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Let's play rock paper scissors!</h1>
+    <div class="buttons">
+        <button>ROCK</button>
+        <button>PAPER</button>
+        <button>SCISSORS</button>
+    </div>
+    <div>
+        <div>
+            <img id="myChoice" src="" height="300 px">
+            <img id="theirChoice" src="" height="300 px">
+        </div>
+        Choices: <span class="choices"></span>
+    </div>
+    <h2>Score</h2>
+    <div>
+        <span>
+            <h3>Me</h3>
+            <div class="myScore"></div>
+        </span>
+        <span>
+            <h3>Computer</h3>
+            <div class="theirScore"></div>
+        </span>
+    </div>
+    <div>
+        <h2>Final Game Result:</h2>
+        <span class="final"></span>
+    </div>
 </body>
 </html>
